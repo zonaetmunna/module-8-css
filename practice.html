@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>display</title>
+     <style>
+          .container {
+               display: flex;
+               border: 2px dotted blueviolet;
+               width: 100%;
+               height: 500px;
+
+          }
+
+          .box {
+               font-size: 3em;
+               width: 200px;
+               height: 100%;
+               border: 3px solid black;
+          }
+
+          #box-1 {
+               order: 2;
+          }
+
+          #box-2 {
+               order: 1;
+               flex-grow: 1;
+          }
+
+     </style>
+</head>
+
+<body>
+     <h1>this is pratice</h1>
+     <div class="container">
+          <div class="box" id="box-2">BOX-1</div>
+          <div class="box" id="box-2">BOX-2</div>
+
+     </div>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>login-form</title>
+     <script src="https://kit.fontawesome.com/5fc270e82e.js" crossorigin="anonymous"></script>
+
+
+     <style>
+          .navigation {
+               display: flex;
+               justify-content: space-between;
+               margin-left: 50px;
+          }
+
+          .navigation a {
+               text-decoration: none;
+               color: black;
+               font-size: large;
+               margin-right: 10px;
+
+          }
+
+          .login-container {
+               display: flex;
+               justify-content: center;
+          }
+
+          .login-form {
+               display: flex;
+               flex-direction: column;
+
+
+          }
+
+          .login-form input,
+          button {
+               font-size: 1.5em;
+               margin-top: 10px;
+               padding-left: 10px;
+               border: 2px solid lightblue;
+               border-radius: 10px;
+          }
+
+          .login-form button {
+               background-color: coral;
+               color: white;
+               text-align: center;
+               font-weight: 700px;
+          }
+
+     </style>
+
+
+</head>
+
+<body>
+     <header>
+          <nav class="navigation">
+               <span>
+                    <a href="">home</a>
+                    <a href="">products</a>
+                    <a href="">orders</a>
+                    <a href="">about</a>
+               </span>
+
+               <span>
+                    <a href=""><i class="fas fa-user"></i></a>
+               </span>
+
+          </nav>
+     </header>
+
+     <section class="login-container">
+          <form action="" class="login-form">
+               <h2>Login</h2>
+               <input type="email" name="email" placeholder="your email" required id="email">
+               <input type="password" name="password" placeholder="your password" id="password">
+               <button type="submit" required>Login</button>
+          </form>
+     </section>
+
+</body>
+
+</html>
